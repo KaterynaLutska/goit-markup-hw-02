@@ -1,0 +1,183 @@
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-adress .link:hover,
+.site-adress .link:focus {
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.link.current {
+  color: var(--accent-color);
+}
+
+/* main navigation */
+.site-nav list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* adress */
+
+.site-adress list {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* section hero */
+
+.hero-title {
+  color: bisque
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* section work description */
+.work-description .title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.work-description .text {
+font-size: 14px;
+line-height: 24px;
+}
+
+/* section  about us */
+
+.section .register {
+color: var(--primary-bg-color);
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+/* section-team */
+
+.section-team{
+  background-color: #F5F4FA; 
+}
+
+.section-team .team {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+}
+
+.section-team .profession {
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+}
+
+.list .link:hover,
+.list .link:focus{
+color: #2196f3;
+background-color #2196f3;
+}
+
+/* page 2 */
+/* section portfolip */
+
+.portfolio-title {
+ffont-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.desc {
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.items .text{
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background-color: rgba(33, 150, 243, 0.9);
+}
+
+
+
+.customers
+
+/* section team  */
+.team .link {
+}
+
+/* section footer */
+
+footer{
+  background-color: #2F303A;
+}
+.adress {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.email, .telephone {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.join {
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
