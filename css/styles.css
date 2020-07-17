@@ -10,7 +10,7 @@
   color: #2196f3;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .link.current {
@@ -19,10 +19,9 @@
 
 /* main navigation */
 .site-nav list {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -30,7 +29,7 @@
 
 .site-adress list {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -38,10 +37,10 @@
 
 .hero-title {
   color: bisque
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 /* section */
@@ -52,15 +51,14 @@
 /* section work description */
 .work-description .title {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 
 .work-description .text {
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 }
 
 /* section  about us */
@@ -72,6 +70,7 @@ line-height: 16px;
 text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+background: rgba(47, 48, 58, 0.8);
 }
 
 /* section-team */
@@ -84,13 +83,13 @@ text-transform: uppercase;
 color: var(--title-text-color);
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 letter-spacing: 0.03em;
 }
 
 .section-team .profession {
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 letter-spacing: 0.03em;
 }
 
@@ -104,40 +103,28 @@ background-color #2196f3;
 /* section portfolip */
 
 .portfolio-title {
-ffont-family: Roboto;
-font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
 
 .desc {
-font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 letter-spacing: 0.03em;
 color: #757575;
 }
 
 .items .text{
-font-weight: normal;
 font-size: 18px;
-line-height: 28px;
+line-height: 1.55;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 background-color: rgba(33, 150, 243, 0.9);
 }
 
-
-
-.customers
-
-/* section team  */
-.team .link {
-}
 
 /* section footer */
 
@@ -145,20 +132,15 @@ footer{
   background-color: #2F303A;
 }
 .adress {
-font-style: normal;
-font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
 .email, .telephone {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
@@ -166,7 +148,7 @@ color: rgba(255, 255, 255, 0.6);
 .join {
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
@@ -177,7 +159,7 @@ color: #FFFFFF;
 h2 {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
