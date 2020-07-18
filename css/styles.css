@@ -41,6 +41,8 @@
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* section */
@@ -110,14 +112,17 @@ color: #212121;
 .desc {
 font-size: 16px;
 line-height: 1.875;
+font-weight: 400px;
 color: #757575;
 }
 
 .items .text{
+font-weight: 400;
 font-size: 18px;
 line-height: 1.55;
 color: #FFFFFF;
 background-color: rgba(33, 150, 243, 0.9);
+letter-spacing: 0.03em;
 }
 
 
@@ -150,7 +155,7 @@ color: #FFFFFF;
 
 
 h2 {
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
