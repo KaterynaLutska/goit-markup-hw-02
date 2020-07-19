@@ -8,17 +8,14 @@
 .site-adress .link:hover,
 .site-adress .link:focus {
   color: #2196f3;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 .link.current {
   color: var(--accent-color);
+  letter-spacing: 0.02em;
 }
 
 /* main navigation */
-.site-nav list {
+.site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -27,7 +24,8 @@
 
 /* adress */
 
-.site-adress list {
+.site-adress {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -36,14 +34,15 @@
 /* section hero */
 
 .hero-title {
-  color: bisque
   font-weight: 900;
+  color: bisque;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
 }
+
 
 /* section */
 .section-title {
@@ -56,11 +55,14 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .work-description .text {
 font-size: 14px;
 line-height: 1.71;
+font-weight: 400;
+
 }
 
 /* section  about us */
@@ -68,7 +70,7 @@ line-height: 1.71;
 .section .register {
 color: var(--primary-bg-color);
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 text-align: center;
 text-transform: uppercase;
 background: rgba(47, 48, 58, 0.8);
@@ -136,12 +138,14 @@ font-size: 14px;
 line-height: 1.71;
 color: #FFFFFF;
 font-style: normal;
+font-weight: 400;
 }
 
 .email, .telephone {
 font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
+font-weight: 400;
 }
 
 .join {
